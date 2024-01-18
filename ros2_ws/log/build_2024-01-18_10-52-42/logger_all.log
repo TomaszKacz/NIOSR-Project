@@ -1,0 +1,127 @@
+[1.721s] DEBUG:colcon:Command line arguments: ['/home/tomek/.local/bin/colcon', 'build']
+[1.721s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f0ec80f2500>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f0ec85f7d90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f0ec85f7d90>>)
+[1.810s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.811s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.811s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.811s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.811s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.811s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.811s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tomek/ros2_ws'
+[1.811s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.811s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.811s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.811s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.811s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.811s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.811s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.811s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.812s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.829s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.830s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.830s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.830s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.830s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.830s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.830s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.830s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.830s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.830s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.830s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.831s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.831s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.831s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.831s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.831s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.831s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.831s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.831s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.831s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.831s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.831s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.831s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.831s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.831s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_subscriber) by extensions ['ignore', 'ignore_ament_install']
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_subscriber) by extension 'ignore'
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_subscriber) by extension 'ignore_ament_install'
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_subscriber) by extensions ['colcon_pkg']
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_subscriber) by extension 'colcon_pkg'
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_subscriber) by extensions ['colcon_meta']
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_subscriber) by extension 'colcon_meta'
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_subscriber) by extensions ['ros']
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_subscriber) by extension 'ros'
+[1.837s] DEBUG:colcon.colcon_core.package_identification:Package 'src/camera_subscriber' with type 'ros.ament_python' and name 'camera_subscriber'
+[1.837s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.837s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.837s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.837s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.837s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.974s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.974s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.019s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/tomek/ros2_ws/install
+[2.042s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 388 installed packages in /opt/ros/humble
+[2.044s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.202s] Level 5:colcon.colcon_core.verb:set package 'camera_subscriber' build argument 'cmake_args' from command line to 'None'
+[2.202s] Level 5:colcon.colcon_core.verb:set package 'camera_subscriber' build argument 'cmake_target' from command line to 'None'
+[2.202s] Level 5:colcon.colcon_core.verb:set package 'camera_subscriber' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.202s] Level 5:colcon.colcon_core.verb:set package 'camera_subscriber' build argument 'cmake_clean_cache' from command line to 'False'
+[2.202s] Level 5:colcon.colcon_core.verb:set package 'camera_subscriber' build argument 'cmake_clean_first' from command line to 'False'
+[2.202s] Level 5:colcon.colcon_core.verb:set package 'camera_subscriber' build argument 'cmake_force_configure' from command line to 'False'
+[2.202s] Level 5:colcon.colcon_core.verb:set package 'camera_subscriber' build argument 'ament_cmake_args' from command line to 'None'
+[2.202s] Level 5:colcon.colcon_core.verb:set package 'camera_subscriber' build argument 'catkin_cmake_args' from command line to 'None'
+[2.202s] Level 5:colcon.colcon_core.verb:set package 'camera_subscriber' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.202s] DEBUG:colcon.colcon_core.verb:Building package 'camera_subscriber' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tomek/ros2_ws/build/camera_subscriber', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tomek/ros2_ws/install/camera_subscriber', 'merge_install': False, 'path': '/home/tomek/ros2_ws/src/camera_subscriber', 'symlink_install': False, 'test_result_base': None}
+[2.223s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.245s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.246s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tomek/ros2_ws/src/camera_subscriber' with build type 'ament_python'
+[2.246s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_subscriber', 'ament_prefix_path')
+[2.280s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.280s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomek/ros2_ws/install/camera_subscriber/share/camera_subscriber/hook/ament_prefix_path.ps1'
+[2.281s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tomek/ros2_ws/install/camera_subscriber/share/camera_subscriber/hook/ament_prefix_path.dsv'
+[2.282s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomek/ros2_ws/install/camera_subscriber/share/camera_subscriber/hook/ament_prefix_path.sh'
+[2.305s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.305s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.749s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tomek/ros2_ws/src/camera_subscriber'
+[2.771s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.771s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.459s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tomek/ros2_ws/src/camera_subscriber': PYTHONPATH=/home/tomek/ros2_ws/build/camera_subscriber/prefix_override:/home/tomek/ros2_ws/install/camera_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/camera_subscriber build --build-base /home/tomek/ros2_ws/build/camera_subscriber/build install --record /home/tomek/ros2_ws/build/camera_subscriber/install.log --single-version-externally-managed
+[3.868s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tomek/ros2_ws/src/camera_subscriber' returned '0': PYTHONPATH=/home/tomek/ros2_ws/build/camera_subscriber/prefix_override:/home/tomek/ros2_ws/install/camera_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/camera_subscriber build --build-base /home/tomek/ros2_ws/build/camera_subscriber/build install --record /home/tomek/ros2_ws/build/camera_subscriber/install.log --single-version-externally-managed
+[3.899s] Level 1:colcon.colcon_core.environment:checking '/home/tomek/ros2_ws/install/camera_subscriber' for CMake module files
+[3.899s] Level 1:colcon.colcon_core.environment:checking '/home/tomek/ros2_ws/install/camera_subscriber' for CMake config files
+[3.900s] Level 1:colcon.colcon_core.environment:checking '/home/tomek/ros2_ws/install/camera_subscriber/lib'
+[3.901s] Level 1:colcon.colcon_core.environment:checking '/home/tomek/ros2_ws/install/camera_subscriber/bin'
+[3.901s] Level 1:colcon.colcon_core.environment:checking '/home/tomek/ros2_ws/install/camera_subscriber/lib/pkgconfig/camera_subscriber.pc'
+[3.901s] Level 1:colcon.colcon_core.environment:checking '/home/tomek/ros2_ws/install/camera_subscriber/lib/python3.10/site-packages'
+[3.901s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_subscriber', 'pythonpath')
+[3.923s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomek/ros2_ws/install/camera_subscriber/share/camera_subscriber/hook/pythonpath.ps1'
+[3.924s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tomek/ros2_ws/install/camera_subscriber/share/camera_subscriber/hook/pythonpath.dsv'
+[3.925s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomek/ros2_ws/install/camera_subscriber/share/camera_subscriber/hook/pythonpath.sh'
+[3.926s] Level 1:colcon.colcon_core.environment:checking '/home/tomek/ros2_ws/install/camera_subscriber/bin'
+[3.926s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_subscriber)
+[3.947s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomek/ros2_ws/install/camera_subscriber/share/camera_subscriber/package.ps1'
+[3.949s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tomek/ros2_ws/install/camera_subscriber/share/camera_subscriber/package.dsv'
+[3.950s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomek/ros2_ws/install/camera_subscriber/share/camera_subscriber/package.sh'
+[3.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomek/ros2_ws/install/camera_subscriber/share/camera_subscriber/package.bash'
+[3.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomek/ros2_ws/install/camera_subscriber/share/camera_subscriber/package.zsh'
+[3.954s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tomek/ros2_ws/install/camera_subscriber/share/colcon-core/packages/camera_subscriber)
+[3.954s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.955s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.955s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.956s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.996s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.997s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.997s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.017s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.040s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tomek/ros2_ws/install/local_setup.ps1'
+[4.042s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tomek/ros2_ws/install/_local_setup_util_ps1.py'
+[4.044s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tomek/ros2_ws/install/setup.ps1'
+[4.072s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tomek/ros2_ws/install/local_setup.sh'
+[4.074s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tomek/ros2_ws/install/_local_setup_util_sh.py'
+[4.075s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tomek/ros2_ws/install/setup.sh'
+[4.101s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tomek/ros2_ws/install/local_setup.bash'
+[4.103s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tomek/ros2_ws/install/setup.bash'
+[4.128s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tomek/ros2_ws/install/local_setup.zsh'
+[4.129s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tomek/ros2_ws/install/setup.zsh'
