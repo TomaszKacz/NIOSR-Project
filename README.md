@@ -3,6 +3,7 @@
 Projekt zaliczeniowy z Niosr 
 
 Wymagania:
+
 instalacja ros2:
 
 https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html
